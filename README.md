@@ -5,6 +5,7 @@ This repository contains tutorials for learning about maximum likelihood (ML) an
 - Background on probability
   - [Sampling](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/IntroToProbability_Sampling.md)
   - [Frequentist Probability](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/IntroToProbability_FreqProb.md)
+  - [Conditional Probability](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/IntroToProbability_CondProb.md)
 - Maximum likelihood inference (general)
 - Maximum likelihood inference (phylogenies)
 - Nonparametric bootstrapping
