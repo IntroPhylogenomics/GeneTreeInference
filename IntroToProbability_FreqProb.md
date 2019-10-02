@@ -1,4 +1,4 @@
-# Exercise 2 (Frequentist Probability)
+# Frequentist Probability
 
 Now we are going to change our sample space, so that the outcomes have a more interesting biological meaning. In this case, we are going to imagine that we are sampling individual organisms from some population (say, a population of salamanders). Individuals can have four possible phenotypes:
 
