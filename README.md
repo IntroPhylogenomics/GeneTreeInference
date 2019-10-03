@@ -10,6 +10,7 @@ This repository contains tutorials for learning about maximum likelihood (ML) an
   - [Discrete Markov Chains](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/DiscreteMarkovChains.md)
 - Maximum likelihood inference (general)
   - [Mean of a Normal](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_NormalMean.md)
+  - [Genetic Distance](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_GeneticDistance.md)
 - Maximum likelihood inference (phylogenies)
 - Nonparametric bootstrapping
 
