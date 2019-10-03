@@ -6,4 +6,14 @@ To start, we will learn how to infer a maximum-likelihood estimate of our phylog
 - [Overview of DNA Models in IQTree](http://www.iqtree.org/doc/Substitution-Models#dna-models)
 - [Overview of Models for Rate Heterogeneity Across Sites](http://www.iqtree.org/doc/Substitution-Models#rate-heterogeneity-across-sites)
 
-After looking through these three sections of the IQTree website, try to infer a phylogeny with the turtles data assuming a Jukes-Cantor (JC) model, a JC model with gamma-distributed rate variation (JC+G), a GTR model, and a GTR model with gamma-distributed rate variation (GTR+G).
+After looking through these three sections of the IQTree website, try to infer a phylogeny with the concatenated turtles data (`turtle.fa`) assuming a 
+
+- Jukes-Cantor (JC) model
+- JC model with gamma-distributed rate variation (JC+G)
+- GTR model
+- GTR model with gamma-distributed rate variation (GTR+G)
+- GTR model with free rates (GTR+R)
+
+Open the trees you infer (in the `.treefile` files) in FigTree. How do they compare topologically? How do the branch lengths compare?
+
+Now, using the bash skills you learned yesterday, write a script to analyze each gene separately. You may want to have your script start by creating separate folders for each gene and then moving the datasets into their respective folders. See if you can keep this script as short as possible. In other words, avoid just writing out every call to IQTree on its own line. Think about using a loop.
