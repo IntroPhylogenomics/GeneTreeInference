@@ -1,2 +1,2 @@
-# Maximum Likelihood Inference of a Normal Distribution's Mean
+# Maximum Likelihood Inference of the Mean
 
