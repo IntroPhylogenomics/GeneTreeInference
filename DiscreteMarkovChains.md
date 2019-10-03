@@ -16,7 +16,9 @@ transitionMatrix = [[0.8,0.2],[0.2,0.]]
 myChain = ["Rainy"]
 ```
 
-Now that we've initialized our chain, we need a way to draw a new state for each generation. Since this is something we'll want to do a lot, we'll create a new function called `addState`.
+Now that we've initialized our chain, we need a way to draw a new state for each generation. Since this is something we'll want to do a lot, we'll create a new function called `addState`. Any user can define their own functions in RevBayes using this syntax:
+
+`function <returnType> <functionName> ( <ArgumentType> <ArgumentName>, ... ) { <CODE> }`.
 
 ```
 function addState(String[] chain, String[] states, Probability[][] tMat){
@@ -43,3 +45,43 @@ function addState(String[] chain, String[] states, Probability[][] tMat){
     }     
 }
 ```
+
+Now that our chain is set up and we have a function to draw a new state for each generation, we can use a for loop to run the chain for as long as we want.
+
+```
+# Define the number of generations (iterations) in our chain
+numGens = 30
+
+# Run the chain for numGens generations
+for (g in 1:numGens){
+    myChain = addState(myChain,stateSpace,transitionMatrix)
+}
+
+# Tally the number of times each state occurs in the chain
+rainCount = 0
+sunCount = 0
+for (i in 1:myChain.size()){
+    if (myChain[i] == "Rainy"){
+        rainCount += 1
+    } else {
+        sunCount += 1
+    }
+}
+
+# Calculate the frequencies of states visited by the chain
+print(rainCount/myChain.size())
+print(sunCount/myChain.size())
+```
+
+Note that each time you run the code in the cell above, it will add numGens generations to the chain. As you run the chain longer, where do the frequencies settle? What are the stationary probabilities?
+
+Get a sense for the dynamics of the chain by examining its states.
+
+```
+# Show all states in the entire chain
+print(myChain)
+```
+
+Now, try changing the probabilities in the transition matrix. First, keep the matrix symmetric (the diagonal elements should remain identical, as should the non-diagonal elements). What happens to the patterns you see in the chain?
+
+Now, make the matrix non-symmetrical. What happens to the stationary frequencies? What's the relationship between the transition matrix and the stationary frequencies?
