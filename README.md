@@ -12,6 +12,7 @@ This repository contains tutorials for learning about maximum likelihood (ML) an
   - [Mean of a Normal](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_NormalMean.md)
   - [Genetic Distance](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_GeneticDistance.md)
 - Maximum likelihood inference (phylogenies)
+  - [Fixed Model of Sequence Evolution](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_Phylo_FixedModel.md)
 - Nonparametric bootstrapping
 
 - Bayes' Theorem
