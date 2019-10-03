@@ -56,13 +56,13 @@ Now let's explore parameter space using a hill climbing algorithm to find the ma
 
 function findML(Real[] dat, Real mean, Real stepSize){
     like = calcLike(dat,mean,1)
-    while (calcLike(dat,mean+stepSize) > like){
+    while (calcLike(dat,mean+stepSize,1) > like){
         mean = mean + stepSize
-        like = calcLike(dat,mean)
+        like = calcLike(dat,mean,1)
     }
-    while (calcLike(dat,mean-stepSize) > like){
+    while (calcLike(dat,mean-stepSize,1) > like){
         mean = mean - stepSize
-        like = calcLike(dat,mean)
+        like = calcLike(dat,mean,1)
     }
     if(stepSize > 0.0001){
         mean = findML(dat,mean,stepSize/2.0)
