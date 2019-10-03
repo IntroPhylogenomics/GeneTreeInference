@@ -29,23 +29,44 @@ function calcLike (Real[] dat, Real mean, Real stdev){
 }
 ```
 
-We also need to give these variables starting values, to define a starting place for our exploration of parameter space. To do so, we'll draw random values.
+We also need to give these variables starting values, to define a starting place for our exploration of parameter space. In this case, we'll draw a random value for the mean, but assume we already know the standard deviation.
 
 ```
 m <- rUniform(1,0,50)  # Draw 1 value from a Uniform(0,50) distribution
-sd <- rUniform(1,0,4)  # Draw 1 value from a Uniform(0,4) distribution
+sd <- 1
 ```
 
-Let's print these values, just to see where we'll be starting.
+Let's print this value, to see where we'll be starting.
 
 ```
 m[1]  # Even though m has just one value, it's stored in a vector so we need to extract it
-sd[1] # The same for the standard deviation
 ```
 
-Let's calculate the likelihood for the starting values of our mean and standard deviation.
+Now let's calculate the likelihood for the starting value of our mean.
 
 ```
-likes <- [calcLike(data,m[1],sd[1])]
+likes <- [calcLike(data,m[1],1)]
 likes[1]
+```
+
+Now let's explore parameter space using a hill climbing algorithm to find the maximum likelihood estimate (MLE) of the mean.
+
+```
+# A hill-climbing algorithm to find the maximum likelihood estimate of the mean
+
+function findML(Real[] dat, Real mean, Real stepSize){
+    like = calcLike(dat,mean,1)
+    while (calcLike(dat,mean+stepSize) > like){
+        mean = mean + stepSize
+        like = calcLike(dat,mean)
+    }
+    while (calcLike(dat,mean-stepSize) > like){
+        mean = mean - stepSize
+        like = calcLike(dat,mean)
+    }
+    if(stepSize > 0.0001){
+        mean = findML(dat,mean,stepSize/2.0)
+    }
+    return mean
+}
 ```
