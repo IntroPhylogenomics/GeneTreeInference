@@ -49,7 +49,7 @@ likes <- [calcLike(data,m[1],1)]
 likes[1]
 ```
 
-Now let's explore parameter space using a hill climbing algorithm to find the maximum likelihood estimate (MLE) of the mean.
+We can explore parameter space using a hill climbing algorithm to find the maximum likelihood estimate (MLE) of the mean.
 
 ```
 # A hill-climbing algorithm to find the maximum likelihood estimate of the mean
@@ -70,3 +70,9 @@ function findML(Real[] dat, Real mean, Real stepSize){
     return mean
 }
 ```
+
+Now that we've defined our hill-climbing algorithm, let's estimate our mean.
+
+`findML(data,m[1],1)`
+
+How close is this to our true mean?
