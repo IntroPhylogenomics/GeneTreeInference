@@ -3,6 +3,7 @@
 In general, probability distributions can be used in two ways
 
 (1) Prediction
+
 (2) Inference
 
 In the case of prediction, we know the parameter values that define our probability distribution, and we are interested in what kinds of values we can then expect to see. So, one of the first things we might want to do is draw random values. Thankfully, RevBayes has built-in functions to do this for many standard probability distributions. In this case, we'll demonstrate with a binomial distribution, but the syntax will be very similar for other distributions.
