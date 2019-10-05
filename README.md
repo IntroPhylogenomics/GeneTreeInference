@@ -7,15 +7,15 @@ This repository contains tutorials for learning about maximum likelihood (ML) an
   - [Sampling](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/Sampling.md)
   - [Frequentist Probability](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/FrequentistProbability.md)
   - [Conditional Probability](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ConditionalProbability.md)
-  - [Discrete Markov Chains](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/DiscreteMarkovChains.md)
   - [Using Probability Distributions](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/UsingDistributions.md)
+  - [Discrete Markov Chains](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/DiscreteMarkovChains.md)
 - Maximum likelihood inference (general)
   - [Mean of a Normal](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_NormalMean.md)
   - [Genetic Distance](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_GeneticDistance.md)
 - Maximum likelihood inference (phylogenies)
   - [Fixed Model of Sequence Evolution](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_Phylo_FixedModel.md)
 - Nonparametric bootstrapping
-
+  - [Bootstrapping Confidence Interval of a Mean](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/BootstrappingMean.md)
 - Bayes' Theorem
 - Bayesian inference with Markov chain Monte Carlo (general)
 - Bayesian inference with MCMC (phylogenies)
