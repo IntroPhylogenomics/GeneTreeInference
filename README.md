@@ -8,6 +8,7 @@ This repository contains tutorials for learning about maximum likelihood (ML) an
   - [Frequentist Probability](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/FrequentistProbability.md)
   - [Conditional Probability](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ConditionalProbability.md)
   - [Using Probability Distributions](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/UsingDistributions.md)
+  - [Prediction and Inference](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/PredictionInference.md)
   - [Discrete Markov Chains](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/DiscreteMarkovChains.md)
 - Maximum likelihood inference (general)
   - [Mean of a Normal](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_NormalMean.md)
