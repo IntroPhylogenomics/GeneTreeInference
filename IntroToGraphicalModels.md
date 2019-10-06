@@ -60,5 +60,6 @@ for (i in 1:10){
 > `# Write Rev code to define a binomial distribution and draw 10 values from it.`
 >
 > `# YOUR CODE HERE`
+>
 > `# YOUR CODE HERE`
 
