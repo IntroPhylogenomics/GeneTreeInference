@@ -20,5 +20,6 @@ This repository contains tutorials for learning about maximum likelihood (ML) an
   - [Phylogenetic Bootstrapping](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/PhyloBootstrap.md)
 - Bayesian inference with Markov chain Monte Carlo (general)
   - [Mean of a Normal](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/MCMC_NormalMean.md)
+  - [Introduction to Graphical Models](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/IntroToGraphicalModels.md)
 - Bayesian inference with MCMC (phylogenies)
   - [Phylogenetic MCMC with a Fixed Model](https://revbayes.github.io/tutorials/ctmc/)
