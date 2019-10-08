@@ -81,8 +81,8 @@ for (gen in 1:numGens){
     
     currLike <- calcLike(data,m[gen],sd[gen])
     
-    propMean <- rnorm(1,m[gen],0.1)
-    propSD <- rnorm(1,sd[gen],0.1)
+    propMean <- rnorm(1,m[gen],1)
+    propSD <- rnorm(1,sd[gen],1)
     propLike <- calcLike(data,propMean[1],propSD[1])
     
     LR <- (propLike-currLike)
