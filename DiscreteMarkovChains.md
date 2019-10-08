@@ -10,7 +10,7 @@ clear()
 stateSpace = ["Rainy","Sunny"]
 
 # Define our transition matrix
-transitionMatrix = [[0.8,0.2],[0.2,0.]]
+transitionMatrix = [[0.8,0.2],[0.2,0.8]]
 
 # Initialize our chain
 myChain = ["Rainy"]
