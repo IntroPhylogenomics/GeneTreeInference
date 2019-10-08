@@ -16,4 +16,4 @@ After looking through these three sections of the IQTree website, try to infer a
 
 Open the trees you infer (in the `.treefile` files) in FigTree. How do they compare topologically? How do the branch lengths compare?
 
-Now, using the bash skills you learned yesterday, write a script to analyze each gene separately. You may want to have your script start by creating separate folders for each gene and then moving the datasets into their respective folders. See if you can keep this script as short as possible. In other words, avoid just writing out every call to IQTree on its own line. Think about using a loop.
+Now, using the bash skills you learned yesterday, write a script to analyze each gene separately ([download genes here](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/turtleGenes.zip)). You may want to have your script start by creating separate folders for each gene and then moving the datasets into their respective folders. See if you can keep this script as short as possible. In other words, avoid just writing out every call to IQTree on its own line. Think about using a loop.
