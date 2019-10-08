@@ -6,7 +6,7 @@ To start, we will learn how to infer a maximum-likelihood estimate of our phylog
 - [Overview of DNA Models in IQTree](http://www.iqtree.org/doc/Substitution-Models#dna-models)
 - [Overview of Models for Rate Heterogeneity Across Sites](http://www.iqtree.org/doc/Substitution-Models#rate-heterogeneity-across-sites)
 
-After looking through these three sections of the IQTree website, try to infer a phylogeny with the concatenated turtles data (`turtle.fa`) assuming a 
+After looking through these three sections of the IQTree website, try to infer a phylogeny with the concatenated turtles data ([turtle.fa](https://raw.githubusercontent.com/IntroPhylogenomics/GeneTreeInference/master/turtle.fa)) assuming a 
 
 - Jukes-Cantor (JC) model
 - JC model with gamma-distributed rate variation (JC+G)
