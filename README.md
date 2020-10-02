@@ -3,10 +3,10 @@
 This repository contains tutorials for learning about maximum likelihood (ML) and Bayesian inference of trees from individual genes. For ML inference, we will use [IQTree](http://www.iqtree.org). For Bayesian inference, we will use [RevBayes](https://revbayes.github.io). We will also use RevBayes to learn about some fundamentals of probability. [AliView](http://www.ormbunkar.se/aliview/) will also be helpful to view sequence alignments, and [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) will be helpful to view trees.
 
 - Background on probability
-  - [Key Rules About Probability - reference](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/KeyProbabilityPrinciples.md)
+  - [Key Rules About Probability (reference)](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/KeyProbabilityPrinciples.md)
   - [Sampling](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/Sampling.md)
-  - [Frequentist Probability](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/FrequentistProbability.md)
-  - [Conditional Probability](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ConditionalProbability.md)
+  - [Frequentist Probability (optional)](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/FrequentistProbability.md)
+  - [Conditional Probability (optional)](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ConditionalProbability.md)
   - [Using Probability Distributions](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/UsingDistributions.md)
   - [Prediction and Inference](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/PredictionInference.md)
   - [Discrete Markov Chains](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/DiscreteMarkovChains.md)
