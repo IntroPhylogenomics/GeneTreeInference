@@ -1,4 +1,4 @@
-# Using Distributions in RevBayes
+# Drawing Values From Distributions in RevBayes
 
 To draw a random number from a particular binomial distribution, we use this syntax like this
 
@@ -22,9 +22,3 @@ The brackets indicate that this is a vector, although it only contains a single 
 binomVals <- rbinom(1,0.5,10)
 binomVals[1]
 ```
-
-If we already have an outcome of a binomial and we want to know the probability of that outcome, we can use the `dbinom()` function.
-
-For instance, `dbinom(9,0.5,10)` returns `-4.628887`. This is the natural log of the probability (0.009765625) of 9 successes in 10 trials if the probability of success is 0.5.
-
-To get the raw probability, we can use `exp()` to "unlog" the output of `dbinom()`. `exp(dbinom(9,0.5,10))` will return `0.009765625`. Therefore, 9 successes seems improbable if the probability of success is really 0.5.
