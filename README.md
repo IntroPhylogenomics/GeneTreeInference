@@ -7,7 +7,7 @@ This repository contains tutorials for learning about maximum likelihood (ML) an
   - [Sampling](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/Sampling.md)
   - [Frequentist Probability (optional)](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/FrequentistProbability.md)
   - [Conditional Probability (optional)](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ConditionalProbability.md)
-  - [Using Probability Distributions](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/UsingDistributions.md)
+  - [Drawing Values From Probability Distributions](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/DrawingValuesFromDistributions.md)
   - [Prediction and Inference](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/PredictionInference.md)
   - [Discrete Markov Chains](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/DiscreteMarkovChains.md)
 - Maximum likelihood inference (general)
