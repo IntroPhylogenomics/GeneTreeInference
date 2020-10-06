@@ -7,7 +7,6 @@ This repository contains tutorials for learning about maximum likelihood (ML) an
 - Maximum likelihood inference (phylogenies)
   - [Fixed Model of Sequence Evolution](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_Phylo_FixedModel.md)
 - Nonparametric bootstrapping
-  - [Bootstrapping Confidence Interval of a Mean](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/BootstrappingMean.md)
   - [Phylogenetic Bootstrapping](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/PhyloBootstrap.md)
 - Bayesian inference with Markov chain Monte Carlo (general)
   - [Mean of a Normal](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/MCMC_NormalMean.md)
