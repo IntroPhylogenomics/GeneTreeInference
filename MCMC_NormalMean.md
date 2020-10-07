@@ -87,7 +87,7 @@ for (gen in 1:numGens){
     
     LR <- (propLike-currLike)
     
-    priorR <- (1/50)
+    priorR <- 1
     if (propSD[1] < 0) { priorR <- 0.0 }
     if (propSD[1] > 4) { priorR <- 0.0 }
     if (propMean[1] < 0) { priorR <- 0.0 }
