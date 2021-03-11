@@ -85,7 +85,7 @@ function distML(String seqOne, String seqTwo, Real t, Real stepSize){
         like = distLike(seqOne,seqTwo,t)
     }
     if(stepSize > 0.0001){
-        t = distML(seq1,seq2,t,stepSize/2.0)
+        t = distML(seqOne,seqTwo,t,stepSize/2.0)
     }
     return t
 }
