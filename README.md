@@ -1,6 +1,6 @@
 # Inferring Gene Trees
 
-This repository contains tutorials for learning about maximum likelihood (ML) and Bayesian inference of trees from individual genes. For ML inference, we will use [IQTree](http://www.iqtree.org). For Bayesian inference, we will use [RevBayes](https://revbayes.github.io). [AliView](http://www.ormbunkar.se/aliview/) will also be helpful to view sequence alignments, and [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) will be helpful to view trees.
+This repository contains tutorials for learning about maximum likelihood (ML) and Bayesian inference of trees from individual genes. For ML inference, we will use [IQTree](http://www.iqtree.org). For Bayesian inference, we will use [RevBayes](https://revbayes.github.io). [AliView](http://www.ormbunkar.se/aliview/) will also be helpful to view sequence alignments, and [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) will be helpful to view trees. Finally, a software tool called (Tracer)[https://github.com/beast-dev/tracer/releases/tag/v1.7.2] is useful for diagnosing the performance of our MCMC based analyses.
 
 - Maximum likelihood inference (general)
   - [Genetic Distance](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/ML_GeneticDistance.md)
