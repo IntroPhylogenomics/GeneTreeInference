@@ -1,0 +1,43 @@
+# ----> MCMC with a Binomial <----
+
+# --> Setting up the model <--
+
+# Setting a uniform [0,1] prior on p
+p ~ dnUnif(0,1)
+
+# Defining the number of trials (5)
+n <- 5
+
+# Setting up k as a random variable with a binomial distribution
+k ~ dnBinomial(n,p)
+
+# Clamping 3 observed successes to k (our "data")
+k.clamp(3)
+
+# --> Setting up the MCMC machinery <--
+
+# Creating our model object, using n as the "handle"
+myModel = model(n)
+
+# Setting up a vector to hold all our moves
+moves = VectorMoves()
+
+# Adding a slide move to the moves vector
+moves.append( mvSlide(p,delta=0.1,weight=1) )
+
+# Setting up a vector to hold all our monitors
+monitors = VectorMonitors()
+
+# Adding a screen monitor to the monitors vector
+monitors.append( mnScreen(printgen=100,p) )
+
+# Adding a model monitor (saved to file) to the monitors vector
+monitors.append( mnModel(filename="myBinomialMCMC.log", printgen=10) )
+
+# Creating our MCMC object
+myMCMC = mcmc(myModel,moves,monitors,nruns=4)
+
+# --> Running the analysis! <--
+
+# Running the analyis for 20,000 generations
+myMCMC.run(20000)
