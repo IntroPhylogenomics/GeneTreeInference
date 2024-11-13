@@ -13,4 +13,4 @@ This repository contains tutorials for learning about maximum likelihood (ML) an
   - [Introduction to Graphical Models](https://github.com/IntroPhylogenomics/GeneTreeInference/blob/master/IntroToGraphicalModels.md)
 - Bayesian inference with MCMC (phylogenies)
   - [Phylogenetic MCMC with a Fixed Model](https://revbayes.github.io/tutorials/ctmc/)
-  - [Debugging your Markov chain Monte Carlo (MCMC)](https://revbayes.github.io/tutorials/mcmc_troubleshooting/) and a [related paper](https://open-research-europe.ec.europa.eu/articles/3-204)
+  - [Debugging your Markov chain Monte Carlo (MCMC)](https://revbayes.github.io/tutorials/mcmc_troubleshooting/) and a [related paper](https://open-research-europe.ec.europa.eu/articles/3-204). Using [RWTY](https://cran.r-project.org/web/packages/rwty/vignettes/rwty.html), to assess convergence and mixing for topologies.
